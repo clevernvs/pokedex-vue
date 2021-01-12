@@ -15,9 +15,9 @@ npm run serve
 
 ### Features
 
-🔨 **Vue** - The Progressive JavaScript Framework
-🔨 **Bulma** - A free open source CSS framework
-🔨 **Axios** - Promise based HTTP client for the browser and node.js
+- 🔨 **Vue** - The Progressive JavaScript Framework
+- 🔨 **Bulma** - A free open source CSS framework
+- 🔨 **Axios** - Promise based HTTP client for the browser and node.js
 
 ## Licença
 
