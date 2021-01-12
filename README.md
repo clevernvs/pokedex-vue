@@ -1,24 +1,24 @@
-# pokedex
+# Pokedex
 
-## Project setup
+Pokedex construída a partir dos dados do site [PokéAPI](https://pokeapi.co/).
+
+## Iniciando o projeto
+
+- Instalando as dependências
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
+- Compilando e iniciando o servidor de desenvolvimento
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Features
 
-### Lints and fixes files
-```
-npm run lint
-```
+🔨 **Vue** - The Progressive JavaScript Framework
+🔨 **Bulma** - A free open source CSS framework
+🔨 **Axios** - Promise based HTTP client for the browser and node.js
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Licença
+
+This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
