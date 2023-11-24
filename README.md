@@ -1,6 +1,11 @@
 # Pokedex
 
-Pokedex construída a partir dos dados do site [PokéAPI](https://pokeapi.co/).
+Sim! É um projeto baseado na pokedex do desenho Pokemon. 
+Mais uma pokedex entre tantas outras que já existem por aí.
+
+O objetivo desse projeto é didático para treinar e entender os conceitos do Vue.js.
+
+Consumindo os dados da API da [PokéAPI].
 
 ## Iniciando o projeto
 
@@ -13,12 +18,17 @@ npm install
 npm run serve
 ```
 
-### Features
+# Informações rápidas sobre a tecnologia que foi utilizada 
 
-- 🔨 **Vue** - The Progressive JavaScript Framework
-- 🔨 **Bulma** - A free open source CSS framework
-- 🔨 **Axios** - Promise based HTTP client for the browser and node.js
+- **Javascript** - Linguagem de programação 
+- **Vue** - Framework
+- **Bulma** - CSS framework
+- **Axios** - Promise based HTTP client for the browser and node.js
 
-## Licença
+# Licença
 
-This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
+This project is licensed under the MIT License - see the [LICENSE] page for details.
+
+<!-- Links -->
+[PokéAPI]: https://pokeapi.co/
+[LICENSE]: https://opensource.org/licenses/MIT
