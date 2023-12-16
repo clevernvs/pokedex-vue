@@ -1,33 +1,48 @@
-# Pokedex
+<h1 align="center"> Pokedex </h1>
 
-Sim! É um projeto baseado na pokedex do desenho Pokemon. 
-Mais uma pokedex entre tantas outras que já existem por aí.
+<div align="center">
+  
+![VueJS](https://img.shields.io/badge/-VueJS-1e272e?style=for-the-badge&logo=vue.js)&nbsp;
+![NodeJS](https://img.shields.io/badge/-NodeJS-1e272e?style=for-the-badge&logo=node.js)&nbsp;
 
-O objetivo desse projeto é didático para treinar e entender os conceitos do Vue.js.
+</div>
+
+<h1> Descrição </h1>
+
+<p>
+Sim! É um projeto baseado na Pokedex, do desenho Pokemon. 
+Mais uma Pokedex entre tantas outras que já existem por aí.
+
+O objetivo desse projeto é para fins didático, treino e entendimento dos conceitos do Vue.js.
 
 Consumindo os dados da API da [PokéAPI].
+</p>
 
-## Iniciando o projeto
+<h1> Recursos utilizados </h1>
 
-- Instalando as dependências
+ <ul>
+     <li>Bulma - CSS </li>
+     <li>Axios - Promise based HTTP client</li>
+ </ul>
+
+
+<h1> Utilizando o projeto </h1>
+
+Instalando as dependências
 ```
 npm install
 ```
-- Compilando e iniciando o servidor de desenvolvimento
+
+Compilando e iniciando o servidor de desenvolvimento
 ```
 npm run serve
 ```
 
-# Informações rápidas sobre a tecnologia que foi utilizada 
+<h1> Licença </h1>
 
-- **Javascript** - Linguagem de programação 
-- **Vue** - Framework
-- **Bulma** - CSS framework
-- **Axios** - Promise based HTTP client for the browser and node.js
-
-# Licença
-
-This project is licensed under the MIT License - see the [LICENSE] page for details.
+<p>
+  This project is licensed under the MIT License - see the [LICENSE] page for details.
+</p>
 
 <!-- Links -->
 [PokéAPI]: https://pokeapi.co/
