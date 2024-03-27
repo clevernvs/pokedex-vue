@@ -1,12 +1,12 @@
 <template>
   <div id="app">
     <div class="column is-half is-offset-one-quarter">
-      
+
       <div class="card">
         <div class="card-image">
-        <figure class="image media-center is-128x128">
-          <img src="./assets/pokemon-logo.png" alt="Pokemon logo" />
-        </figure>
+          <figure class="image media-center is-128x128">
+            <img src="./assets/pokemon-logo.png" alt="Pokemon logo" />
+          </figure>
 
         </div>
         <div class="card-content">
@@ -16,21 +16,16 @@
 
       <div class="card">
         <div class="card-content">
-        <div class="level">
-          <div class="level-item">
-            <input
-              class="input is-rounded"
-              type="text"
-              placeholder="Buscar pokemon"
-              v-model="searchPokemon"
-            />
+          <div class="level">
+            <div class="level-item">
+              <input class="input is-rounded" type="text" placeholder="Buscar pokemon" v-model="searchPokemon" />
+            </div>
+            <div class="level-item">
+              <button class="button is-primary is-rounded" @click="search">
+                Buscar
+              </button>
+            </div>
           </div>
-          <div class="level-item">
-            <button class="button is-primary is-rounded" @click="search">
-              Buscar
-            </button>
-          </div>
-        </div>
         </div>
       </div>
 
@@ -42,8 +37,9 @@
 </template>
 
 <script>
-import axios from "axios";
-import Pokemon from "./components/Pokemon";
+import axios from 'axios';
+// import Pokemon from "./components/Pokemon";
+import Pokemon from './components/Pokemon.vue';
 
 export default {
   name: "App",
@@ -64,7 +60,7 @@ export default {
       });
   },
   components: {
-    Pokemon,
+    Pokemon
   },
   methods: {
     search: function () {

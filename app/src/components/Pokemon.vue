@@ -3,19 +3,19 @@
     <div class="card">
       <div class="card-image">
         <figure>
-          <img :src="currentImg" alt="Placeholder image"/>
+          <img :src="currentImg" alt="Placeholder image" />
         </figure>
       </div>
       <div class="card-content">
         <div class="media">
           <div class="media-content">
-            <p class="title is-4"><b>{{ num }}</b> - {{ name | upper }}</p>
+            <p class="title is-4"><b># {{ num }}</b> - {{ name || upper }}</p>
             <p class="subtitle is-6">{{ pokemon.type }}</p>
           </div>
         </div>
 
         <div class="content">
-          <button class="button is-small" @click="modifyImg">Virar imagem</button>         
+          <button class="button is-small" @click="modifyImg">Virar imagem</button>
         </div>
       </div>
     </div>
@@ -37,11 +37,11 @@ export default {
   data() {
     return {
       isFront: true,
-      currentImg:'',
+      currentImg: '',
       pokemon: {
-        type:'',
-        imgFront:'',
-        imgBack:'',
+        type: '',
+        imgFront: '',
+        imgBack: '',
       }
     };
   },
@@ -57,8 +57,8 @@ export default {
     },
   },
   methods: {
-    modifyImg: function(){
-      if(this.isFront) {
+    modifyImg: function () {
+      if (this.isFront) {
         this.isFront = false;
         this.currentImg = this.pokemon.imgBack;
       } else {
